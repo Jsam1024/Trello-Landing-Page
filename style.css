@@ -1,0 +1,526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif; 
+}
+div{
+    border: 1px solid black;
+}
+#header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: green;
+}
+#navigator{
+    width: 1260px;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigator img{
+    width: 100px;
+    margin-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 21px;
+    font-size: 15px;
+    
+}
+.free{
+    display: flex;
+    justify-content: center;
+}
+.free a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(38, 99, 255);
+    padding: 18px;
+    font-size: 19px;
+}
+.free a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#first{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #cb41be;
+    background-image: linear-gradient(to right, rgba(88, 73, 174, 0.8), #cb41be 65%);
+}
+#tsri{
+    width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 160px;
+    color: #fff;
+}
+.keep{
+    width: 500px;
+}
+.keep h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.keep h3{
+    margin-bottom: 25px;
+}
+#vid{
+    margin-bottom: 30px;
+}
+#vid input{
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 260px;
+    border-radius: 7px;
+}
+#vid button{
+    padding: 10px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: rgb(38, 99, 255);
+    border-radius: 7px;
+}
+.keep a{
+    color: white;
+}
+.collage{
+    padding: 0px;
+    margin: 0px;
+}
+.collage img{
+    padding: 0;
+    width: 550px;
+}
+
+
+#second{
+    width: 1050px;
+    margin: 0 auto;
+}
+#second h4{
+    margin-bottom: 20px;
+}
+#second h1{
+    margin-bottom: 25px;
+}
+#second p{
+    width: 540px;
+    font-size: 19px;
+    line-height: 25px;
+}
+#second a{
+    color: rgb(93, 70, 223);
+}
+
+#third{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-image: linear-gradient(to top, rgba(105, 213, 255, 0.2), rgba(105, 213, 255, 0.1));
+}
+#dirh{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+.board{
+    width: 350px;
+    padding: 10px;
+}
+.board p{
+    margin: 20px 0px;
+    line-height: 23px;
+}
+#dirh img{
+    padding: 10px;
+    width: 700px;
+}
+
+
+#forth{
+    margin-top: 70px;
+}
+#htro{
+    width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#htro h4{
+    margin-bottom: 20px;
+}
+#project{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#project div{
+    width: 300px;
+    padding: 40px 20px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    border-top: 50px solid black;
+    background-color: white;
+}
+#project .task{
+    border-top: 50px solid #de6325;
+    border-radius: 8px;
+}
+#project .team{
+    border-top: 50px solid #4375ff;
+    border-radius: 8px;
+}
+#project .company{
+    border-top: 50px solid #4ae7c2;
+    border-radius: 8px;
+}
+#explore{
+    margin: 60px auto;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+#explore p{
+    font-size: 19px;
+    width: 700px;
+    border: 1px solid black;
+    line-height: 25px;
+}
+#explore a{
+    color: black;
+    text-decoration: none;
+    padding: 15px 10px 10px 10px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+#explore a:hover{
+    background-color: rgb(0, 72, 255, 0.1);
+}
+
+section{
+    border: 1px solid black;
+}
+
+
+#fifth{
+    width: 100%;
+    height: 870px;
+    background-image: linear-gradient(to right, rgb(16, 156, 255), rgba(16, 156, 255, 0.6));
+}
+#htfif{
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+}
+#htfif h2{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#htfif p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#htfif a{
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    transition: 0.4s;
+    margin-bottom: 50px;
+}
+#htfif a:hover{
+    background-color: rgba(255, 255, 255,0.7);
+}
+#sprint{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 14px;
+}
+#sprint .track{
+    width: 525px;
+    padding: 60px;
+    font-size: 19px;
+}
+#sprint .track p{
+    line-height: 30px;
+    width: 380px;
+    margin: 10px 0;
+}
+#sprint img{
+    width: 525px;
+    padding: 30px;
+}
+#sprint a{
+    color: rgb(93, 70, 223);
+}
+
+#vision{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 60px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+#vision .view{
+    width: 525px;
+    padding: 60px;
+    font-size: 19px;
+}
+#vision .view p{
+    line-height: 30px;
+    width: 380px;
+    margin: 10px 0;
+}
+#vision img{
+    width: 525px;
+    padding: 30px;
+}
+#vision a{
+    color: rgb(93, 70, 223);
+}
+
+
+#sixth{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+#sixth h4{
+    margin-bottom: 20px;
+}
+#sixth h1{
+    margin-bottom: 25px;
+}
+#sixth p{
+    width: 540px;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+
+#seventh{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+}
+#seventh div{
+    width: 300px;
+    margin-right: 50px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+#seventh h2{
+    margin: 20px 0;
+}
+#seventh p{
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+#seventh a{
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+#seventh a:hover{
+    background-color: rgb(0, 72, 255, 0.1);
+}
+
+
+#eight{
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(98, 203, 255, 0.3), rgb(255, 255, 255));
+}
+#nineth{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 125px;
+}
+.chunk{
+    width: 700px;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.chunk .oll{
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+.chunk .joey{
+    margin-bottom: 40px;
+}
+.chunk a{
+    color: rgb(93, 70, 223);
+    margin-left: 500px;
+}
+.chunk a:hover{
+    color: rgb(73, 60, 162);
+}
+.survey{
+    color: #fff;
+    background-color: #cb41be;
+    background-image: linear-gradient(to right, rgba(88, 73, 174, 0.8), #cb41be 65%);
+    width: 350px;
+    padding: 30px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.survey h1{
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.survey a{
+    color: rgb(239, 239, 239);
+}
+.survey a:hover{
+    color: #fff;
+}
+
+
+#tenth{
+    width: 1050px;
+    margin: 80px auto;
+    text-align: center;
+}
+#tenth h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#tenth h4{
+    margin-bottom: 30px;
+}
+#tenth a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(38, 99, 255);
+    border-radius: 7px;
+}
+/* #tenth a:hover{ */
+    /* background-color: ; */
+/* } */
+
+#eleven{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+}
+#eleven div{
+    width: 261px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+}
+#eleven h4{
+    margin-bottom: 30px;
+}
+#eleven .naps{
+    margin-bottom: 10px;
+}
+#eleven .naps span{
+    font-size: 40px;
+    font-weight: bold;
+}
+#eleven .fee{
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+#eleven .pan .fee{
+    margin-bottom: 42px;
+}
+#eleven .standard{
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    margin-bottom: 80px;
+}
+#eleven .pan .standard{
+    margin-bottom: 130px;
+}
+#twelve .standard{
+    margin-bottom: 130px;
+}
+#enterprise .standard{
+    margin-bottom: 105px;
+}
+
+#eleven .link a{
+    padding: 15px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(0, 208, 255);
+    border-radius: 7px;
+    transition: 0.3s;
+}
+#eleven #premium{
+    border: 2px solid rgb(0, 208, 255);
+}
+#eleven .link a:hover{
+    background-color: rgb(98, 203, 255, 0.2);
+}
+#premium .link a{
+    background-color: rgb(98, 203, 255, 0.2);
+    transition: 0.3s;
+}
+#premium .link a:hover{
+    background-color: #fff;
+}
+#eleven .link{
+    margin-bottom: 40px;
+}
+#eleven .kinl{
+    color: rgb(93, 70, 223);
+}
+#eleven .kinl:hover{
+    color: rgb(73, 60, 162)
+}
+
+#ogbon{
+    width: 1050px;
+    margin: 100px auto;
+    text-align: center;
+}
+#ogbon p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
