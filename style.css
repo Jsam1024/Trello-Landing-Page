@@ -565,3 +565,36 @@ section{
     background-color: rgb(38, 99, 255);
     border-radius: 7px;
 }
+
+
+#adota{
+    width: 100%;
+    background-color: rgb(31, 36, 83);
+}
+#taoda{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    padding: 20px;
+}
+#taoda div{
+    width: 210px;
+    padding: 10px;
+}
+#taoda div.behind{
+    transition: 0.1s;
+}
+#taoda div.behind:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255,0.3);
+}
+#taoda img{
+    width: 100px;
+}
+#taoda h5{
+    margin: 20px 0;
+}
+#taoda p{
+    font-size: 12px;
+}
