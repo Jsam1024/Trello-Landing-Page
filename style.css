@@ -591,10 +591,24 @@ section{
 }
 #taoda img{
     width: 100px;
+    margin: 12px 0 20px 0;
+    filter: brightness(10000);
 }
 #taoda h5{
     margin: 20px 0;
 }
 #taoda p{
     font-size: 12px;
+}
+#taoda a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+#taoda a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 95%;
+    margin: 0 auto;
 }
