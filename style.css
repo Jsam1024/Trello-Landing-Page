@@ -568,11 +568,11 @@ ul li a:hover{
     color: white;
 }
 #atogo h1{
-    margin-top: 70px;
-    margin-bottom: 20px;
+    padding-top: 70px;
+    margin-bottom: 30px;
 }
 #atogo div{
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 #atogo input{
     padding: 15px 15px;
@@ -583,13 +583,14 @@ ul li a:hover{
     font-size: 16px;
 }
 #atogo button{
-    padding: 15px; 
+    padding: 18px; 
     margin-left: 5px;
     color: #fff;
     font-size: 16px;
     background-color: rgb(38, 99, 255);
     border-radius: 7px;
     cursor: pointer;
+    border: none;
 }
 #atogo button:hover{
     background-color: rgba(2, 53, 180, 0.9);
@@ -645,7 +646,9 @@ hr{
 
 #cright{
     width: 1050px;
-    margin: 20px auto;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
 }
