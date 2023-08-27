@@ -20,6 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.1);
 }
 #navigator img{
     width: 100px;
@@ -50,7 +51,7 @@ ul li a:hover{
     color: black;
     text-decoration: none;
     background-color: #fff;
-    padding: 18px;
+    padding: 19px;
     font-size: 19px;
 }
 .free .log{
