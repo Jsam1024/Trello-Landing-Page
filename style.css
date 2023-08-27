@@ -282,6 +282,7 @@ ul li a:hover{
     display: flex;
     background-color: #fff;
     border-radius: 14px;
+    box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.1);
 }
 #sprint .track{
     width: 525px;
@@ -311,6 +312,7 @@ ul li a:hover{
     margin-top: 60px;
     background-color: #fff;
     border-radius: 14px;
+    box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.1);
 }
 #vision .view{
     width: 525px;
