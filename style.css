@@ -6,15 +6,12 @@
 body{
     font-family: sans-serif; 
 }
-div{
-    border: 1px solid black;
-}
 #header{
     top: 0;
     position: fixed;
     width: 100%;
     height: 60px;
-    background-color: green;
+    background-color: #fff;
 }
 #navigator{
     width: 1260px;
@@ -39,31 +36,36 @@ ul{
 }
 ul li a{
     color: black;
-    background-color: white;
     text-decoration: none;
     padding: 21px;
-    font-size: 15px;
-    
+    font-size: 15px;  
+}
+ul li a:hover{
+    color: rgb(38, 99, 255);
 }
 .free{
     display: flex;
     justify-content: center;
 }
 .free a{
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: rgb(38, 99, 255);
+    background-color: #fff;
     padding: 18px;
     font-size: 19px;
 }
-.free a:hover{
-    background-color: rgba(0, 0, 0, 0.5);
+.free .log{
+    color: #fff;
+    background-color: rgb(38, 99, 255);
+}
+.free .log:hover{
+    background-color: rgba(2, 53, 180, 0.9);;
 }
 
 
 #first{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(2, 2, 39);
     background-color: #cb41be;
     background-image: linear-gradient(to right, rgba(88, 73, 174, 0.8), #cb41be 65%);
 }
@@ -101,6 +103,10 @@ ul li a{
     background-color: rgb(38, 99, 255);
     border-radius: 7px;
 }
+#vid button:hover{
+    cursor: pointer;
+    background-color: rgba(2, 53, 180, 0.9);
+}
 .keep a{
     color: white;
     font-size: 14px;
@@ -136,6 +142,9 @@ ul li a{
 }
 #second a{
     color: rgb(93, 70, 223);
+}
+#second a:hover{
+    color: rgb(73, 60, 162);
 }
 
 #third{
@@ -188,6 +197,11 @@ ul li a{
     line-height: 25px;
     border-top: 50px solid black;
     background-color: white;
+    box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+#project div:hover{
+    box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.3);
 }
 #project .task{
     border-top: 50px solid #de6325;
@@ -288,6 +302,9 @@ section{
 #sprint a{
     color: rgb(93, 70, 223);
 }
+#sprint a:hover{
+    color: rgb(73, 60, 162);
+}
 
 #vision{
     width: 1050px;
@@ -313,6 +330,9 @@ section{
 }
 #vision a{
     color: rgb(93, 70, 223);
+}
+#vision a:hover{
+    color: rgb(73, 60, 162);
 }
 
 
@@ -343,8 +363,9 @@ section{
 #seventh div{
     width: 300px;
     margin-right: 50px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(250, 249, 249);
     padding: 20px;
+    border-radius: 7px;
 }
 #seventh h2{
     margin: 20px 0;
@@ -352,6 +373,9 @@ section{
 #seventh p{
     line-height: 25px;
     margin-bottom: 30px;
+}
+#seventh .scale p{
+    margin-bottom: 55px;
 }
 #seventh a{
     color: black;
@@ -376,6 +400,7 @@ section{
     margin: 0 auto;
     display: flex;
     margin-top: 125px;
+    cursor: grab;
 }
 .chunk{
     width: 700px;
@@ -441,9 +466,9 @@ section{
     background-color: rgb(38, 99, 255);
     border-radius: 7px;
 }
-/* #tenth a:hover{ */
-    /* background-color: ; */
-/* } */
+#tenth a:hover{
+    background-color: rgba(2, 53, 180, 0.9);
+}
 
 #eleven{
     width: 1050px;
@@ -564,6 +589,10 @@ section{
     font-size: 16px;
     background-color: rgb(38, 99, 255);
     border-radius: 7px;
+    cursor: pointer;
+}
+#atogo button:hover{
+    background-color: rgba(2, 53, 180, 0.9);
 }
 
 
@@ -611,4 +640,43 @@ section{
 hr{
     width: 95%;
     margin: 0 auto;
+}
+
+
+#cright{
+    width: 1050px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#notice{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+}
+#notice a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;   
+}
+#notice a:hover{
+    text-decoration: underline;
+}
+#download img{
+    filter: brightness(100);
+    padding: 4px;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin-left: 30px;
+    transform: scale(0.75);
+    transition: 0.3s;
+}
+#download img.linkedin{
+    padding: 0x;
+    width: 30px;
+}
+#download img:hover{
+    transform: scale(0.5);
+    cursor: pointer;
 }
