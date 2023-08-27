@@ -6,6 +6,12 @@
 body{
     font-family: sans-serif; 
 }
+section{
+    border: 1px solid black;
+}
+div{
+    border: 1px solid black;
+}
 #header{
     top: 0;
     position: fixed;
@@ -683,4 +689,308 @@ hr{
 #download img:hover{
     transform: scale(0.5);
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    #navigator li a{
+        display: none;
+    }
+    #navigator .free .out{
+        display: none;
+    }
+    #navigator{
+        width: 410px;
+    }
+    #navigator img{
+        margin: 0;
+    }
+    .free .log{
+        margin: 0;
+    }
+
+    #tsri{
+        width: 390px;
+        display: block;
+    }
+    .keep{
+        width: 390px;
+        text-align: center;
+        margin-top: 130px;
+    }
+    .keep h1{
+        font-size: 30px;
+    }
+    .keep h3{
+        font-size: 16px;
+    }
+    #vid{
+        margin-bottom: 20px;
+    }
+    #vid input{
+        display: none;
+    }
+    #vid button{
+        font-size: 15px;
+        padding: 14px 130px;
+    }
+    .collage{
+        margin-top: 40px;
+    }
+    .collage img{
+        width: 390px;
+    }
+
+
+    #second{
+        width: 390px;
+    }
+    #second p{
+        width: 400px;
+        line-height: 30px;
+    }
+
+    #dirh{
+        width: 390px;
+        flex-direction: column-reverse;
+    }
+    #dirh img{
+        width: 390px;
+    }
+    .board{
+        width: 390px;
+    }
+
+    #htro{
+        width: 390px;
+        margin-bottom: 40px;
+    }
+    #htro h1{
+        font-size: 25px;
+    }
+    #project{
+        width: 390px;
+        display: block;
+    }
+    #project div{
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    #explore{
+        width: 390px;
+        display: block;
+        margin-bottom: 80px;
+    }
+    #explore p{
+        width: 390px;
+        margin-bottom: 50px;
+    }
+
+
+    #fifth{
+        height: 1200px;
+    }
+    #htfif{
+        width: 390px;
+    }
+    #htfif h2{
+        font-size: 25px;
+    }
+    #htfif p{
+        margin-bottom: 30px;
+    }
+    #sprint{
+        width: 390px;
+        display: block;
+    }
+    #sprint .track{
+        width: 390px;
+        padding: 20px;
+    }
+    #sprint .track p{
+        width: 350px;
+    }
+    #sprint img{
+        padding: 20px;
+        width: 390px;
+    }
+    #vision{
+        width: 390px;
+        display: block;
+        margin-top: 30px;
+    }
+    #vision .view{
+        width: 390px;
+        padding: 20px;
+    }
+    #vision .view p{
+        width: 350px;
+    }
+    #vision img{
+        padding: 20px;
+        width: 390px;
+    }
+
+
+    #sixth{
+        width: 390px;
+        margin-top: 150px;
+    }
+    #sixth h1{
+        font-size: 25px;
+    }
+    #sixth p{
+        width: 390px;
+    }
+
+
+    #seventh{
+        width: 390px;
+        display: block;
+    }
+    #seventh div{
+        width: 390px;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    #seventh .scale{
+        margin-bottom: 50px;
+    }
+
+
+    #nineth{
+        width: 390px;
+        display: block;
+    }
+    .chunk{
+        width: 390px;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        border-bottom-left-radius: 0px;
+    }
+    .chunk .oll{
+        margin-bottom: 30px;
+    }
+    .chunk .joey{
+        margin-bottom: 20px;
+    }
+    .chunk a{
+        margin: 0;
+    }
+    .survey{
+        width: 390px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 14px;
+        border-bottom-left-radius: 14px;
+    }
+    .survey h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    #tenth{
+        width: 390px;
+        margin-bottom: 50px;
+    }
+
+
+    #eleven{
+        width: 390px;
+        display: block;
+    }
+    #eleven div{
+        width: 390px;
+        margin-bottom: 20px;
+    }
+    #eleven .fee{
+        margin-bottom: 20px;
+    }
+    #eleven .pan .fee{
+        margin-bottom: 20px;
+    }
+    #eleven .standard{
+        margin-bottom: 50px;
+    }
+    #eleven .pan .standard{
+        margin-bottom: 100px;
+    }
+    #twelve .standard{
+        margin-bottom: 100px;
+    }
+    #enterprise .standard{
+        margin-bottom: 75px;
+    }
+
+
+    #ogbon{
+        width: 390px;
+        margin-bottom: 50px;
+    }
+    #ogbon p{
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    #ogbon img{
+        width: 410px;
+    }
+
+
+    #atogo{
+        width: 390px;
+    }
+    #atogo input{
+        display: none;
+    }
+    #atogo button{
+        font-size: 15px;
+        padding: 14px 130px;
+    }
+    #atogo h1{
+        padding-top: 40px;
+    }
+
+
+    #taoda{
+        width: 390px;
+        display: block;
+        padding: 0px;
+    }
+    #taoda div{
+        width: 390px;
+        border: none;
+        border-bottom: 1px solid #fff;
+    }
+    #taoda .sindun{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    hr{
+        display: none;
+    }
+
+    #cright{
+        width: 390px;
+        display: block;
+    }
+    #notice{
+        display: block;
+        padding: 10px;
+    }
+    #notice a{
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #download{
+        margin: 40px 0;
+        margin-top: 60px;
+    }
+    #download img{
+        margin: 0;
+        margin-right: 20px;
+    }
+
 }
